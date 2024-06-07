@@ -4,7 +4,7 @@ download and install either from aur https://archlinux.org/packages/extra/x86_64
 
 sudo systemctl enable chronie
 
-## docker webUI
+## optional webUI hosted on docker or installed locally via npm
 
 https://github.com/alseambusher/crontab-ui
 
