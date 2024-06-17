@@ -1,12 +1,14 @@
 ## installation
 
-download and install either from aur https://archlinux.org/packages/extra/x86_64/cronie/ or for other distros on github https://github.com/cronie-crond/cronie/
+arch based distros download from aur https://archlinux.org/packages/extra/x86_64/cronie/ 
+
+or for other distros download from github https://github.com/cronie-crond/cronie/
+
+enable the service
 
 sudo systemctl enable chronie
 
-## optional webUI hosted on docker or installed locally via npm
-
-https://github.com/alseambusher/crontab-ui
+## [optional webUI hosted on docker or installed locally via npm](https://github.com/alseambusher/crontab-ui)
 
 ## script example
 
@@ -15,6 +17,9 @@ https://github.com/alseambusher/crontab-ui
 ## resources
 
 https://www.baeldung.com/linux/tag/cron
+
 https://www.baeldung.com/linux/cron-jobs-path
+
 https://www.baeldung.com/linux/cron-files-backup
+
 https://www.baeldung.com/linux/load-env-variables-in-cron-job
